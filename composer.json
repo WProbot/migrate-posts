@@ -1,0 +1,12 @@
+{
+  "require-dev": {
+    "lucatume/wp-browser": "*",
+    "codeception/module-db": "^1.0",
+    "codeception/module-webdriver": "^1.0",
+    "codeception/module-asserts": "^1.2",
+    "codeception/module-cli": "^1.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
