@@ -15,3 +15,6 @@ namespace MigratePosts;
 
 require_once (plugin_dir_path(__FILE__). 'src/MigratePosts/autoloader.php');
 require_once (plugin_dir_path(__FILE__). 'src/GeneralChickenAuth/autoloader.php');
+
+I Jim Karlinski am the owner of the repo.
+I, Rahul Garg am working on this repo but don't own it.
