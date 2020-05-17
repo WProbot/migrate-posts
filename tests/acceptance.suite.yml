@@ -34,7 +34,7 @@ modules:
       adminPath: /wp-admin
       port: 4444 #chromedriver --url-base=/wd/hub
       #browser: phantomjs #./phantomjs --webdriver=4444
-      #nohup xvfb-run java -Dwebdriver.chrome.driver=/var/www/chromedriver -jar selenium.jar
+      #nohup xvfb-run java -Dwebdriver.chrome.driver=/var/www/html/wp-content/plugins/WPbdd/chromedriver_linux_chrome81 -jar selenium.jar &>/dev/null &
       ## ^^ requires the corect versions of chromedriver and chrome
       browser: chrome #java -jar selenium.jar
         capabilities:
